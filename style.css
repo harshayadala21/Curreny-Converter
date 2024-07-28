@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;600;700;&display=swap');
+
+body,html {
+  height:100%;
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:poppins;
+}
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:110vh;
+  /* background-color:#675AFE;*/
+  /* background-image: url("Screenshot\ 2024-05-07\ 005747.png"); */
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("Screenshot\ 2024-05-07\ 005747.png");
+  
+}
+
+.wrapper {
+  width:370px;
+  padding:30px;
+  border-radius:7px;
+  background:#fff;
+}
+
+.wrapper-header {
+  font-size:30px;
+  font-weight:500;
+  text-align:center;
+  font-weight:bold;
+}
+
+.wrapper form {
+  margin: 40px 0 20px 0
+}
+
+.enter{
+  font-size:19px;
+  font-style:bold;
+  
+}
+form p{
+  font-size:18px;
+  margin-top:2rem;
+  margin-bottom:1rem;
+}
+form :where(input,select,button){
+  width:100%;
+  outline:none;
+  border:none;
+  border-radius : 5px;
+}
+
+form input {
+  border:1px solid #999;
+  font-size:17px;
+  padding:0 15px;
+  height:50px;
+  
+}
+
+form input:focus{
+  padding:0 14px;
+  border:2px solid #675AFE;
+}
+
+.from {
+  margin-top:2px;
+  margin-bottom:10px;
+  padding-top:1rem;
+  line-height:9px;
+  font-weight:700;
+  color:rgb(139, 44, 44)
+}
+.from-1 {
+  margin-top:2px;
+  padding-top:2px;
+}
+form .drop-list{
+  margin-top:20px;
+}
+.select-box {
+  height:60px;
+  width:115px;
+  border : 1px solid #ece2e2;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.select-box select{
+  width:auto;
+  margin:0 -5px 0 5px;
+}
+
+.select-box img{
+  width:50px;
+}
+
+.drop-list .icon {
+  padding-top:1rem;
+  cursor:pointer;
+  font-size:20px;
+}
+
+.to {
+  margin-top:2px;
+  margin-bottom:10px;
+  padding-top:0rem;
+  line-height:9px;
+  font-weight:700;
+  color:rgb(139, 44, 44)
+}
+
+form .exchange-rate {
+  
+  padding-left:5rem;
+  padding-top:1rem;
+  font-weight: bold;
+  margin:20px 0 30px;
+  font-size: 17px;
+  color:rgb(2, 65, 2)
+}
+
+form button:hover{
+  opacity: 0.5;
+}
+
+form button {
+  height:52px;
+  color:#fff;
+  font-size: 17px;
+  cursor:pointer;
+  background:#675AFE;
+  
+}
+
+
+
+
+
+
+
+  
